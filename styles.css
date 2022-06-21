@@ -1,0 +1,74 @@
+
+/*CSS Resets*/
+
+html, body{
+    box-sizing: border-box;
+    height: 100%;
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+}
+
+
+*, *:before, *::after{
+    box-sizing: inherit;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(220, 15%, 55%);
+}
+
+
+/*White Background*/
+
+.white-background{
+    flex: 1 1 auto;
+    background-color:hsl(0, 0%, 100%);
+    width: 330px;
+    height: 200px;
+    border-radius: 30px;
+    margin-top: 70px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+  
+
+}
+
+.qr-code img{
+   border-radius: 30px;
+    width: 300px;
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+/*Footer*/
+footer{
+    flex-shrink: 0;
+}
+
+.attribution{
+  text-align: center;
+  font-size: 12px ;
+  font-weight: 400;
+  opacity: 60%;
+}
+
+.attribution a {
+    text-decoration: none;
+}
+
+.attribution a:hover{
+    color: plum;
+}
