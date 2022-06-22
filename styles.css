@@ -25,10 +25,9 @@ body{
 /*White Background*/
 
 .white-background{
-    flex: 1 1 auto;
+    flex: 1 1 220; 
     background-color:hsl(0, 0%, 100%);
     width: 330px;
-    height: 200px;
     border-radius: 30px;
     margin-top: 70px;
     margin-bottom: 80px;
@@ -68,9 +67,6 @@ body{
 
 
 /*Footer*/
-footer{
-    flex-shrink: 0;
-}
 
 .attribution{
   text-align: center;
@@ -86,3 +82,35 @@ footer{
 .attribution a:hover{
     color: plum;
 }
+
+
+
+
+/*Media Queries*/
+
+/*280px or less*/
+@media (max-width: 280px){
+
+    .white-background{
+        width: 260px;
+        border-radius: 30px;
+    }
+
+    .qr-code img{
+        border-radius: 10px;
+        width: 240px;
+    }
+
+    
+    .text-heading{
+        font-size: 15px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .text-par{
+        margin-top: 5px;
+    }
+}
+
+
