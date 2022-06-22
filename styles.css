@@ -53,7 +53,9 @@ body{
 
 .text-heading{
     width: 255px; 
-    color:hsl(218, 44%, 22%) ;
+    color:hsl(218, 44%, 22%);
+    font-size: 20px;
+    text-align: center;
 }
 
 .text-par{
