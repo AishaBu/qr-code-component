@@ -21,7 +21,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![QR Code Component Desktop View Nest Hub Device Image](../qr-code-component/images/qr-code-component-myreadme-image.png)
+![QR Code Component Desktop View Nest Hub Device Image](./images/qr-code-component-myreadme-image.png)
 
 ### Links
 
